@@ -1,0 +1,48 @@
+header {
+  background: url(../images/flower-2567332_1920.jpg) center / cover;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+}
+
+h1{
+  font-weight: bold;
+  color: hsla(0, 0%, 96%, 0.9);
+}
+.slogan {
+  font-weight: lighter;
+  color: hsla(0, 0%, 96%, 0.7)	;
+  font-size: 1.6rem;
+}
+main{
+  max-width: 900px;
+}
+body{
+  padding-bottom: 5rem;
+}
+
+.project-description{
+  padding-left: 0;
+}
+
+.project img{
+  width: 100%;
+}
+footer.mdl-mini-footer{
+  bottom:0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul{
+  margin: auto;
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+   header.mdl-layout__header {
+     display: flex;
+  }
+}
